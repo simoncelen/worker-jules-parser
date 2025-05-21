@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@premium-plus-io-types",
+    ]
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/!old",
+    "./data",
+    "**/*.map"
+  ]
+}
